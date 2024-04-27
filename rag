@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "\n\nFiles to Ingest"
-echo "--------------------------------------------------------------------------"
-ls -s ~/docs/SOURCE_DOCUMENTS/*.pdf
-echo "--
+clear
+echo "Performing Inferencing on Local Documents"
+echo "----------------------------------------------------------"
+python ~/docs/run_localGPT.py

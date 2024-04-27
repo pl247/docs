@@ -2,5 +2,4 @@
 clear
 echo "Ingesting Source Documents"
 echo "----------------------------------------------------------"
-conda activate docs
 python ~/docs/ingest.py
